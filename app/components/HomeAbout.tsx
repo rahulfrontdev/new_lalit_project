@@ -97,10 +97,10 @@ const HomeAbout = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                     >
-                        <Link href="/achievement">
+                        <Link href="/achievement" >
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
+                                whileTap={{ scale: 0.95 }} style={{ cursor: 'pointer' }}
                                 className="px-6 py-3 rounded-lg bg-red-700 text-white font-semibold hover:bg-red-800 transition"
                             >
                                 View My Work
@@ -111,6 +111,7 @@ const HomeAbout = () => {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
+                                style={{ cursor: 'pointer' }}
                                 className="px-6 py-3 rounded-lg border border-red-700 text-red-700 font-semibold hover:bg-red-50 transition"
                             >
                                 Contact Me

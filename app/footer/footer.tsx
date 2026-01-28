@@ -66,7 +66,7 @@ const Footer = () => {
                         Contact
                     </h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Email: <span className="text-white">lalit@email.com</span></li>
+                        <li>Email: <span className="text-white">imlalit45@gmail.com</span></li>
                         <li>LinkedIn: <span className="text-white">linkedin.com/in/rahul</span></li>
                         <li>Location: <span className="text-white">India</span></li>
                     </ul>

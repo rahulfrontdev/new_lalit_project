@@ -58,9 +58,9 @@ const Contact = () => {
                             {/* Info Cards */}
                             <div className="space-y-5">
                                 {[
-                                    { label: "Location", value: "India" },
-                                    { label: "Email", value: "your@email.com" },
-                                    { label: "Phone", value: "+91 XXXXX XXXXX" },
+                                    { label: "Location", value: "Noida, India" },
+                                    { label: "Email", value: "imlalit45@gmail.com" },
+                                    { label: "Phone", value: "+91 9122904495" },
                                 ].map((item, index) => (
                                     <motion.div
                                         key={index}
