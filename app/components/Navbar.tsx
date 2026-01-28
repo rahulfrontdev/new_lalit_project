@@ -28,7 +28,7 @@ const Navbar = () => {
                             Lalit Raj
                         </h1>
                         <p className="text-xs text-slate-500 font-medium leading-tight">
-                            Deputy Manager – Trade Finance Operations
+                            Deputy Manager – Trade Finance Professional
                             <span className="block text-red-600 font-semibold">
                                 Axis Bank
                             </span>

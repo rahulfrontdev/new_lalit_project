@@ -9,7 +9,7 @@ import Image from "next/image";
 const Certifications = () => {
     const certifications = [
         "CITF – Certificate in International Trade & Finance (IIBF)",
-        "Certificate Course in Foreign Exchange – IIBF",
+        "Certificate Course in Foreign Exchange – (IIBF)",
         "Countering Trade-Based Money Laundering – World Bank Group",
         "NISM-Series-V-A: Mutual Fund Distributors Certification Examination",
         "NISM Series VI: Depository Operations Certification",

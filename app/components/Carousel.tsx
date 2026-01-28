@@ -59,7 +59,7 @@ const TradeCarousel = () => {
                                     </p>
 
                                     <div className="flex gap-4">
-                                        <Link href="/Experience">   <button style={{ cursor: 'pointer' }} className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-sm font-medium">
+                                        <Link href="/experience">   <button style={{ cursor: 'pointer' }} className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-sm font-medium">
                                             View Experience
                                         </button></Link>
                                         <button style={{ cursor: 'pointer' }} className="px-6 py-3 border border-white rounded-md text-sm font-medium hover:bg-white hover:text-black transition">

@@ -75,9 +75,9 @@ const About = () => {
                         </h2>
 
                         <p>
-                            I am a <strong>results-driven Trade Finance professional</strong>
+                            I am a <strong>results-driven Trade Finance professional </strong>
                             with hands-on experience in managing end-to-end
-                            <strong> import and export trade transactions</strong>
+                            <strong> import and export trade transactions </strong>
                             within Wholesale Banking Operations.
                         </p>
 
@@ -133,9 +133,9 @@ const About = () => {
                     className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8"
                 >
                     <div className="p-6 rounded-xl border border-slate-200 text-center hover:shadow-md transition">
-                        <h4 className="text-3xl font-bold text-[#7A1E2D]">100+</h4>
+                        <h4 className="text-3xl font-bold text-[#7A1E2D]">60k+</h4>
                         <p className="text-slate-600 mt-2">
-                            Trade Documents Processed
+                            Trade Transactions Processed
                         </p>
                     </div>
 

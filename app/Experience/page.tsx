@@ -10,7 +10,7 @@ const Experience = () => {
     const experiences = [
         {
             icon: <FaUniversity />,
-            title: "Internship at Axis Bank, Noida",
+            title: "Internship at Axis House, Noida",
             duration: "3 Months",
             description:
                 "Hands-on exposure to trade finance operations, import payment processing, and banking documentation. Laid the groundwork for managing complex transactions and regulatory compliance.",

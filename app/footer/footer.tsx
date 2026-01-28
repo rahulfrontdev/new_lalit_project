@@ -9,10 +9,10 @@ const Footer = () => {
                 {/* Brand */}
                 <div>
                     <h3 className="text-white text-lg font-semibold">
-                        Lalit Kumar
+                        Lalit Raj
                     </h3>
                     <p className="text-sm mt-2">
-                        Trade Finance Operations professional specializing in Import & Export,
+                        Trade Finance professional specializing in Import & Export,
                         Letter of Credit processing, and banking compliance.
                     </p>
                 </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                     </h4>
                     <ul className="space-y-2 text-sm">
                         <li>Email: <span className="text-white">imlalit45@gmail.com</span></li>
-                        <li>LinkedIn: <span className="text-white">linkedin.com/in/rahul</span></li>
+                        <a href='/http://linkedin.com/in/lalitraj/'> <li>LinkedIn: <span className="text-white">Linkdin</span></li></a>
                         <li>Location: <span className="text-white">India</span></li>
                     </ul>
                 </div>

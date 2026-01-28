@@ -115,7 +115,7 @@ const Experties = () => {
 
                     <div className="bg-white border border-[#F3C6D3] rounded-xl p-6 shadow-sm">
                         <h4 className="text-3xl font-bold text-[#8B1538]">Import Operations</h4>
-                        <p className="text-slate-600 mt-2">Import  Operations</p>
+                        <p className="text-slate-600 mt-2">RBI Master Directions</p>
                     </div>
 
                     <div className="bg-white border border-[#F3C6D3] rounded-xl p-6 shadow-sm">
