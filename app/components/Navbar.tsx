@@ -65,7 +65,7 @@ const Navbar = () => {
                         <li><Link href="/" className="hover:text-blue-600 transition">Home</Link></li>
                         <li><Link href="/about" className="hover:text-blue-600 transition">About</Link></li>
                         <li><Link href="/experties" className="hover:text-blue-600 transition">Expertise</Link></li>
-                        <li><Link href="/experience" className="hover:text-blue-600 transition">Experienceeee</Link></li>
+                        <li><Link href="/knowledge" className="hover:text-blue-600 transition">Experience</Link></li>
                         <li><Link href="/project" className="hover:text-blue-600 transition">Projects</Link></li>
                         <li><Link href="/certification" className="hover:text-blue-600 transition">Certifications</Link></li>
                         <li><Link href="/achievement" className="hover:text-blue-600 transition">Achievements</Link></li>
