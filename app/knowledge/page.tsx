@@ -6,7 +6,7 @@ import Footer from "../footer/footer";
 import { motion } from "framer-motion";
 import { FaUniversity, FaBuilding, FaFileInvoiceDollar, FaUserCheck } from "react-icons/fa";
 
-const Experience = () => {
+const Page = () => {
     const experiences = [
         {
             icon: <FaUniversity />,
@@ -91,4 +91,4 @@ const Experience = () => {
     );
 };
 
-export default Experience;
+export default Page;
