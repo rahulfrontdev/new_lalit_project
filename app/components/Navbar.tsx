@@ -50,7 +50,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-2xl text-slate-700"
+                    className="md:hidden text-2xl text-slate-700" style={{ marginRight: '60px' }}
                     onClick={toggleMenu}
                     aria-label="Toggle Menu"
                 >
