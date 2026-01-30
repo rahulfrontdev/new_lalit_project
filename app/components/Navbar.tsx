@@ -24,9 +24,9 @@ const Navbar = () => {
                         className="rounded-full object-cover"
                     />
                     <div>
-                        <h1 className="text-lg font-bold tracking-wide text-slate-900">
+                        <Link href='/'> <h1 className="text-lg font-bold tracking-wide text-slate-900">
                             Lalit Raj
-                        </h1>
+                        </h1></Link>
                         <p className="text-xs text-slate-500 font-medium leading-tight">
                             Deputy Manager – Trade Finance Professional
                             <span className="block text-red-600 font-semibold">

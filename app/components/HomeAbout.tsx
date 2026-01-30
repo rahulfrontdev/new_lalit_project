@@ -34,9 +34,16 @@ const HomeAbout = () => {
                         transition={{ duration: 0.7 }}
                     >
                         Driving secure, compliant, and time-bound{" "}
-                        <span className="text-red-700">
-                            trade finance operations
-                        </span>
+                        <a
+                            href="https://www.rbi.org.in/commonman/english/Scripts/Notification.aspx?Id=848"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span className="text-red-700 hover:underline cursor-pointer">
+                                trade finance operations
+                            </span>
+                        </a>
+
                     </motion.h1>
 
                     {/* Subtitle */}
@@ -150,7 +157,7 @@ const HomeAbout = () => {
                     >
                         I am a results-driven Trade Finance professional with progressive
                         experience at{" "}
-                        <span className="font-semibold text-red-700">Axis Bank</span>,
+                        <a href="https://www.axis.bank.in/" target="blank"><span className="font-semibold text-red-700">Axis Bank</span></a>,
                         currently working as a Deputy Manager in Wholesale Banking Operations at
                         the Trade Finance Center. I bring strong expertise in Letters of Credit,
                         import documentation, remittances, and compliance.

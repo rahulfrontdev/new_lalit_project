@@ -32,10 +32,9 @@ const TradeCarousel = () => {
                 href="https://wa.me/9122904495"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-green-500 text-white text-2xl
-                   shadow-lg hover:bg-green-600 transition
-                   animate-bounce"
+                className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-green-500 text-white text-2xl shadow-lg hover:bg-green-600 transition animate-bounce"
                 aria-label="WhatsApp"
+                style={{ marginRight: '40px' }}
             >
                 <FaWhatsapp />
             </a>
@@ -57,24 +56,35 @@ const TradeCarousel = () => {
                             {/* Overlay */}
                             <div className="w-full h-full bg-black/60 flex items-center">
                                 <div className="max-w-4xl px-10 text-white">
-                                    <h1 className="text-4xl md:text-5xl font-bold mb-4">
+
+                                    {/* Title */}
+                                    <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-up">
                                         {slide.title}
                                     </h1>
-                                    <p className="text-lg md:text-xl text-gray-200 mb-6">
+
+                                    {/* Subtitle */}
+                                    <p className="text-lg md:text-xl text-gray-200 mb-6 animate-fade-up animate-delay-200">
                                         {slide.subtitle}
                                     </p>
 
-                                    <div className="flex gap-4">
+                                    {/* Buttons */}
+                                    <div className="flex gap-4 animate-fade-up animate-delay-400">
                                         <Link href="/experience">
                                             <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-sm font-medium">
                                                 View Experience
                                             </button>
                                         </Link>
 
-                                        <button className="px-6 py-3 border border-white rounded-md text-sm font-medium hover:bg-white hover:text-black transition">
-                                            Download Resume
-                                        </button>
+                                        <a
+                                            href="https://drive.google.com/drive/folders/1oIM-UGmHmWv2t0mOINti2AoIjJnhHzrt"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <button className="px-6 py-3 border border-white rounded-md text-sm font-medium hover:bg-white hover:text-black transition">
+                                                Gallary
+                                            </button></a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
