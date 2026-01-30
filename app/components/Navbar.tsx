@@ -38,10 +38,10 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8 text-sm font-medium text-slate-700">
-                    <li><Link href="/" className="hover:text-blue-600 transition">Homeuuuuuuu</Link></li>
+                    <li><Link href="/" className="hover:text-blue-600 transition">Home</Link></li>
                     <li><Link href="/about" className="hover:text-blue-600 transition">About</Link></li>
                     <li><Link href="/experties" className="hover:text-blue-600 transition">Expertise</Link></li>
-                    <li><Link href="/experience" className="hover:text-blue-600 transition">Experiencee</Link></li>
+                    <li><Link href="/experience" className="hover:text-blue-600 transition">Experience</Link></li>
                     <li><Link href="/project" className="hover:text-blue-600 transition">Projects</Link></li>
                     <li><Link href="/certification" className="hover:text-blue-600 transition">Certifications</Link></li>
                     <li><Link href="/achievement" className="hover:text-blue-600 transition">Achievements</Link></li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                         <li><Link href="/experience" className="hover:text-blue-600 transition">Experience</Link></li>
                         <li><Link href="/project" className="hover:text-blue-600 transition">Projects</Link></li>
                         <li><Link href="/certification" className="hover:text-blue-600 transition">Certifications</Link></li>
-                        <li><Link href="/achievement" className="hover:text-blue-600 transition">Achievement</Link></li>
+                        <li><Link href="/achievement" className="hover:text-blue-600 transition">Achievements</Link></li>
                         <li><Link href="/contact" className="hover:text-blue-600 transition">Contact</Link></li>
                     </ul>
                 </div>
