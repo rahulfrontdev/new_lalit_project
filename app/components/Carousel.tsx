@@ -69,7 +69,7 @@ const TradeCarousel = () => {
 
                                     {/* Buttons */}
                                     <div className="flex gap-4 animate-fade-up animate-delay-400">
-                                        <Link href="/experience">
+                                        <Link href="/knowledge">
                                             <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-sm font-medium">
                                                 View Experience
                                             </button>
